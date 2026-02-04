@@ -3,114 +3,160 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grupos Terapéuticos Online</title>
+  <title>Grupos Terapéuticos Online | Psicología Clínica</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800">
 
-  <!-- Header -->
-  <header class="bg-white shadow-md">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-semibold">Psicología Clínica</h1>
-      <nav class="space-x-6">
-        <a href="#grupos" class="hover:text-blue-600">Grupos</a>
-        <a href="#modalidad" class="hover:text-blue-600">Modalidad</a>
-        <a href="#perfil" class="hover:text-blue-600">Perfil Profesional</a>
-        <a href="#contacto" class="hover:text-blue-600">Contacto</a>
-      </nav>
-    </div>
-  </header>
+<body class="bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50 text-gray-800 scroll-smooth">
 
-  <!-- Hero -->
-  <section class="bg-blue-100 py-16">
-    <div class="max-w-5xl mx-auto px-6 text-center">
-      <h2 class="text-4xl font-bold mb-4">Grupos Terapéuticos Online</h2>
-      <p class="text-lg">Espacios de acompañamiento profesional para el bienestar emocional y la salud mental.</p>
-    </div>
-  </section>
+<!-- HEADER -->
+<header class="bg-white shadow-md sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-purple-700">Psicología Clínica</h1>
+    <nav class="space-x-6 font-semibold">
+      <a href="#inicio" class="hover:text-purple-600">Inicio</a>
+      <a href="#grupos" class="hover:text-purple-600">Grupos</a>
+      <a href="#modalidad" class="hover:text-purple-600">Modalidad</a>
+      <a href="#pagos" class="hover:text-purple-600">Pagos</a>
+      <a href="#contacto" class="hover:text-purple-600">Contacto</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- Grupos Terapéuticos -->
-  <section id="grupos" class="py-16">
-    <div class="max-w-6xl mx-auto px-6">
-      <h3 class="text-3xl font-semibold mb-8 text-center">Grupos Terapéuticos</h3>
+<!-- HERO / PRESENTACIÓN -->
+<section id="inicio" class="py-24 text-center bg-gradient-to-r from-purple-400 to-indigo-400 text-white">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-5xl font-bold mb-6">Grupos Terapéuticos Online</h2>
+    <p class="text-xl leading-relaxed">
+      Espacios de acompañamiento psicológico diseñados para brindar contención, escucha profesional y herramientas para el bienestar emocional.
+    </p>
+  </div>
+</section>
 
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="bg-white p-6 rounded-2xl shadow">
-          <h4 class="text-xl font-semibold mb-2">Migrantes</h4>
-          <p>Espacio de contención y acompañamiento para procesos migratorios, adaptación cultural y desafíos emocionales asociados.</p>
-        </div>
+<!-- SECCIÓN GRUPOS -->
+<section id="grupos" class="py-20">
+  <div class="max-w-6xl mx-auto px-6">
 
-        <div class="bg-white p-6 rounded-2xl shadow">
-          <h4 class="text-xl font-semibold mb-2">Soledad en mediana edad</h4>
-          <p>Grupo orientado a trabajar el aislamiento, vínculos y procesos personales en la adultez media.</p>
-        </div>
+    <h3 class="text-3xl font-bold text-center text-purple-700 mb-12">Áreas de Trabajo Terapéutico</h3>
 
-        <div class="bg-white p-6 rounded-2xl shadow">
-          <h4 class="text-xl font-semibold mb-2">Adicciones conductuales</h4>
-          <p>Abordaje terapéutico para el tratamiento y acompañamiento en conductas adictivas no relacionadas a sustancias.</p>
-        </div>
+    <div class="grid md:grid-cols-2 gap-10">
 
-        <div class="bg-white p-6 rounded-2xl shadow">
-          <h4 class="text-xl font-semibold mb-2">Acompañamiento en embarazo</h4>
-          <p>Espacio terapéutico de apoyo emocional durante el proceso gestacional.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Modalidad -->
-  <section id="modalidad" class="bg-gray-100 py-16">
-    <div class="max-w-5xl mx-auto px-6">
-      <h3 class="text-3xl font-semibold mb-6 text-center">Modalidad de Trabajo</h3>
-      <p class="text-center text-lg">Los grupos terapéuticos se realizan de forma online, garantizando confidencialidad, profesionalismo y accesibilidad desde cualquier lugar.</p>
-    </div>
-  </section>
-
-  <!-- Perfil Profesional -->
-  <section id="perfil" class="py-16">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h3 class="text-3xl font-semibold mb-6">Perfil Profesional</h3>
-      <p>Psicóloga clínica especializada en acompañamiento emocional y trabajo grupal terapéutico, con enfoque en procesos vitales complejos y bienestar psicológico.</p>
-    </div>
-  </section>
-
-  <!-- Agenda y Pagos -->
-  <section class="bg-blue-50 py-16">
-    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8">
-      <div class="bg-white p-6 rounded-2xl shadow">
-        <h4 class="text-xl font-semibold mb-3">Agenda de Entrevistas</h4>
-        <p>Reserva tu entrevista de admisión a través del sistema de agenda online.</p>
-        <button class="mt-4 px-6 py-2 bg-blue-600 text-white rounded-xl">Agendar Entrevista</button>
+      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition">
+        <h4 class="text-xl font-bold mb-3">Procesos Migratorios</h4>
+        <p>Espacio de contención emocional orientado a personas que atraviesan procesos de migración, adaptación cultural, duelo migratorio y reconstrucción de redes vinculares.</p>
       </div>
 
-      <div class="bg-white p-6 rounded-2xl shadow">
-        <h4 class="text-xl font-semibold mb-3">Pagos Online</h4>
-        <p>Gestión segura de honorarios mediante plataformas de pago digital.</p>
-        <button class="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl">Realizar Pago</button>
+      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition">
+        <h4 class="text-xl font-bold mb-3">Soledad en la Mediana Edad</h4>
+        <p>Grupo terapéutico destinado a trabajar sentimientos de aislamiento, reconfiguración de proyectos personales, vínculos afectivos y sentido vital.</p>
       </div>
-    </div>
-  </section>
 
-  <!-- Contacto -->
-  <section id="contacto" class="py-16">
-    <div class="max-w-4xl mx-auto px-6">
-      <h3 class="text-3xl font-semibold mb-6 text-center">Contacto</h3>
+      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition">
+        <h4 class="text-xl font-bold mb-3">Adicciones Conductuales</h4>
+        <p>Abordaje terapéutico enfocado en el tratamiento de conductas compulsivas como uso problemático de tecnología, juego, compras o relaciones vinculares disfuncionales.</p>
+      </div>
 
-      <form class="bg-white p-6 rounded-2xl shadow space-y-4">
-        <input type="text" placeholder="Nombre" class="w-full border p-2 rounded" />
-        <input type="email" placeholder="Email" class="w-full border p-2 rounded" />
-        <textarea placeholder="Consulta" class="w-full border p-2 rounded"></textarea>
-        <button class="px-6 py-2 bg-blue-600 text-white rounded-xl">Enviar</button>
-      </form>
-    </div>
-  </section>
+      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition">
+        <h4 class="text-xl font-bold mb-3">Acompañamiento Psicológico en Embarazo</h4>
+        <p>Espacio terapéutico orientado a brindar sostén emocional durante el proceso gestacional, abordando cambios personales, miedos, expectativas y fortalecimiento del vínculo materno.</p>
+      </div>
 
-  <!-- Footer -->
-  <footer class="bg-white py-6 mt-10 border-t">
-    <div class="max-w-6xl mx-auto px-6 text-center text-sm">
-      © 2026 Psicología Clínica - Todos los derechos reservados
     </div>
-  </footer>
+  </div>
+</section>
+
+<!-- MODALIDAD -->
+<section id="modalidad" class="bg-purple-100 py-20">
+  <div class="max-w-4xl mx-auto text-center px-6">
+
+    <h3 class="text-3xl font-bold text-purple-700 mb-6">Modalidad de Trabajo</h3>
+
+    <p class="text-lg leading-relaxed">
+      Los encuentros terapéuticos se realizan de manera online mediante plataformas seguras que garantizan confidencialidad, privacidad y accesibilidad. Antes de ingresar a un grupo se realiza una entrevista de admisión individual.
+    </p>
+
+    <a href="mailto:mateoclerici34@gmail.com?subject=Solicitud%20de%20Entrevista%20de%20Admisión"
+      class="inline-block mt-10 px-10 py-4 bg-purple-600 text-white rounded-xl font-semibold hover:bg-purple-700 transition shadow-md">
+      Solicitar Entrevista de Admisión
+    </a>
+
+    <p class="mt-5 text-sm text-gray-600">La entrevista permite evaluar necesidades y orientar al grupo terapéutico adecuado.</p>
+
+  </div>
+</section>
+
+<!-- PAGOS -->
+<section id="pagos" class="py-20">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+
+    <h3 class="text-3xl font-bold text-purple-700 mb-8">Sistema de Pago Online</h3>
+
+    <div class="bg-white p-10 rounded-2xl shadow-lg">
+
+      <p class="text-lg mb-6">
+        Los honorarios pueden abonarse mediante transferencia electrónica utilizando el siguiente alias:
+      </p>
+
+      <div class="bg-purple-100 p-5 rounded-xl text-2xl font-bold text-purple-700 tracking-wide">
+        mateoclerici347.uala
+      </div>
+
+      <p class="mt-6 text-gray-600">
+        Una vez realizado el pago, se solicita enviar el comprobante por correo electrónico para confirmar la reserva del espacio terapéutico.
+      </p>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="py-20 bg-indigo-50">
+  <div class="max-w-4xl mx-auto px-6">
+
+    <h3 class="text-3xl font-bold text-center text-purple-700 mb-10">Contacto Profesional</h3>
+
+    <form action="mailto:TUEMAIL@gmail.com" method="POST" enctype="text/plain"
+      class="bg-white p-8 rounded-2xl shadow-lg space-y-6">
+
+      <input type="text" name="Nombre" placeholder="Nombre completo" required
+        class="w-full border border-gray-300 p-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400">
+
+      <input type="email" name="Email" placeholder="Correo electrónico" required
+        class="w-full border border-gray-300 p-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400">
+
+      <textarea name="Consulta" placeholder="Escriba su consulta" required rows="5"
+        class="w-full border border-gray-300 p-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400"></textarea>
+
+      <button type="submit"
+        class="w-full py-4 bg-purple-600 text-white font-semibold rounded-xl hover:bg-purple-700 transition shadow-md">
+        Enviar Consulta
+      </button>
+
+      <p class="text-xs text-gray-500 text-center">
+        La información enviada será utilizada únicamente con fines de contacto profesional y será tratada con confidencialidad.
+      </p>
+
+    </form>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-white py-8 border-t">
+  <div class="max-w-6xl mx-auto text-center px-6">
+
+    <p class="font-semibold text-purple-700">Atención Psicológica Online</p>
+
+    <p class="text-sm text-gray-600 mt-2">
+      Espacios terapéuticos grupales orientados al bienestar emocional.
+    </p>
+
+    <p class="text-xs text-gray-400 mt-4">
+      © 2026 - Servicio profesional de salud mental. Todos los derechos reservados.
+    </p>
+
+  </div>
+</footer>
 
 </body>
 </html>
